@@ -58,7 +58,7 @@ export default function Home() {
             {/* EY Web & App Dev */}
             <BorderBeam />
             <LinkPreview
-              url="https://elkommos.com"
+              url="https://web.elkommos.com"
               className="text-2xl font-bold text-gray-800 mb-4 w-full flex justify-center"
             >
               EY Web & App Dev
@@ -82,18 +82,18 @@ export default function Home() {
             </Button> 
           </Card>
         </div>
-        <footer className="py-8 text-center text-gray-500">
-          Designed by{' '}
-          <a
-            href="https://anthony.elkommos.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="font-medium text-gray-700 hover:text-gray-900"
-          >
-            Anthony Elkommos Youssef
-          </a>
-        </footer>
       </div>
+      <footer className="py-8 text-center text-gray-500">
+        Designed by{' '}
+        <a
+          href="https://anthony.elkommos.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="font-medium text-gray-700 hover:text-gray-900"
+        >
+          Anthony Elkommos Youssef
+        </a>
+      </footer>
     </>
   );
 }
