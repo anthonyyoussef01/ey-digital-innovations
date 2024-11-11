@@ -43,14 +43,14 @@ export default function Home() {
             {/* EY Photo & Video */}
             <BorderBeam />
             <LinkPreview
-              url="https://instagram.com/the_ey_photo"
+              url="https://photo.elkommos.com"
               className="text-2xl font-bold text-gray-800 mb-4 w-full flex justify-center"
             >
               EY Photo & Video
             </LinkPreview>
             <p className="text-gray-600 mb-4">Capture moments, tell stories.</p>
             <div className="flex-grow"></div> {/* This will push the button to the bottom */}
-            <Link href="https://instagram.com/the_ey_photo"> 
+            <Link href="https://photo.elkommos.com">
               <Button variant="ringHover" className="w-full flex justify-center">
                 Explore
               </Button>
