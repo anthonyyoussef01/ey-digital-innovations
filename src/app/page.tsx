@@ -5,6 +5,7 @@ import { LinkPreview } from "@/components/ui/link-preview";
 import TypingAnimation from '@/components/ui/typing-animation';
 import BlurIn from '@/components/ui/blur-in';
 import { BorderBeam } from "@/components/ui/border-beam";
+import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -49,9 +50,11 @@ export default function Home() {
             </LinkPreview>
             <p className="text-gray-600 mb-4">Capture moments, tell stories.</p>
             <div className="flex-grow"></div> {/* This will push the button to the bottom */}
-            <Button variant="ringHover" className="w-full flex justify-center">
-              Explore
-            </Button>
+            <Link href="https://instagram.com/the_ey_photo"> 
+              <Button variant="ringHover" className="w-full flex justify-center">
+                Explore
+              </Button>
+            </Link>
           </Card>
 
           <Card className="relative p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300 flex flex-col"> 
@@ -65,9 +68,11 @@ export default function Home() {
             </LinkPreview>
             <p className="text-gray-600 mb-4">Crafting digital experiences.</p>
             <div className="flex-grow"></div> {/* This will push the button to the bottom */}
-            <Button variant="ringHover" className="w-full flex justify-center">
-              Learn More
-            </Button>
+            <Link href="https://web.elkommos.com"> 
+              <Button variant="ringHover" className="w-full flex justify-center">
+                Learn More
+              </Button>
+            </Link>
           </Card>
 
           <Card className="p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300">
