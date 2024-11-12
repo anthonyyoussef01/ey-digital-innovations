@@ -62,6 +62,7 @@ export default function TypingAnimation({
             'font-display text-center text-4xl font-bold leading-[5rem] tracking-[-0.02em] drop-shadow-sm',
             className,
          )}
+         style={{ minHeight: '5rem' }} // Set a minimum height to prevent layout shift
       >
          {displayedText || text}
       </h1>
